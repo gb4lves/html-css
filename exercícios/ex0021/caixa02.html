@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(128, 128, 128);
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            margin: 15px;
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.363);
+        }
+
+        footer  {
+            background-color: black;
+            color: white;
+            border: 5px solid gray;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(110, 110, 110);
+            padding: 3px;
+            box-shadow: 2px 6px 7px 1px rgba(0, 0, 0, 0.349);
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin-right: 10px;
+            color: white;
+        }
+
+        nav > a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        aside {
+            background-color: grey;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nobis commodi earum illum aut laboriosam iure natus enim tempora omnis debitis eius odio delectus quaerat atque ex deserunt nemo veniam.</p>
+                <aside>
+                    <p>Artigo escrito por Josésinho</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Alves</p>
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>
