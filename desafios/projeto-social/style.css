@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background: beige url(imagens/fundo-madeira.jpg) center center / cover no-repeat fixed;
+    height: 97vh;
+}
+
+section#celular {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+section.redes {
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 5px;
+}
