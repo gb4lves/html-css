@@ -30,6 +30,12 @@ menu li {
     background-color: rgb(76, 100, 122);
 }
 
+li:hover {
+    background-color: rgb(42, 54, 66);
+    color: white;
+    transition-duration: 0.5s;
+}
+
 article {
     width: 600px;
     display: block;
