@@ -3,5 +3,5 @@
 /* Dispositivo Deitado */
 
 body, html {
-    background: url(../imagens/cev-landscape.jpg) center center / cover no-repeat;
+    background: url(../imagens/cev-landscape.jpg) left bottom;
 }

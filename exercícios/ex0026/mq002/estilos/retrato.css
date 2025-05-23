@@ -3,5 +3,5 @@
 /* Dispositivo em Pé */
 
 body, html {
-    background: url(../imagens/cev-portrait.jpg) center center / cover no-repeat;
+    background: url(../imagens/cev-portrait.jpg) center bottom;
 }
