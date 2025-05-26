@@ -36,6 +36,10 @@
         background-image: url(../imagens/back-tablet.jpg);
     }
 
+    h2::after {
+        content: 'Versão para Tablets';
+    }
+
     img#cel {display: none;}
     img#tablet {display: block;}
     img#print {display: none;}
@@ -48,6 +52,10 @@
         background-image: url(../imagens/back-pc.jpg);
     }
 
+    h2::after {
+        content: 'Versão para Desktop';
+    }
+
     img#cel {display: none;}
     img#tablet {display: none;}
     img#print {display: none;}
@@ -58,6 +66,10 @@
 @media screen and (min-width: 1441px) { /* TELAS GRANDES */
     body {
         background-image: url(../imagens/back-tv.jpg);
+    }
+
+    h2::after {
+        content: 'Versão para Grandes Telas';
     }
 
     main {

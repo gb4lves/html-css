@@ -36,6 +36,20 @@ h1 {
     font-size: 2em;
 }
 
+h2 {
+    text-align: center;
+}
+
+h2:hover {
+    color: aliceblue;
+    text-shadow: 1px 2px 3px black;
+    transition-duration: 0.3s;
+}
+
+h2::after {
+        content: 'Versão para Smartphones';
+    }
+
 img {
     display: block;
     margin: auto;
